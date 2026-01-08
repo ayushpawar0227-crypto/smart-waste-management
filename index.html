@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Smart Waste Management System</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, Helvetica, sans-serif;
+      background: #f4f6f8;
+      color: #333;
+    }
+    header {
+      background: #1e7f43;
+      color: white;
+      padding: 1.5rem 2rem;
+    }
+    header h1 {
+      margin: 0;
+      font-size: 1.8rem;
+    }
+    header p {
+      margin: 0.3rem 0 0;
+      opacity: 0.9;
+    }
+    section {
+      padding: 2rem;
+      max-width: 1200px;
+      margin: auto;
+    }
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+      gap: 1.5rem;
+    }
+    .card {
+      background: white;
+      border-radius: 10px;
+      padding: 1.5rem;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+    }
+    .card h3 {
+      margin-top: 0;
+      color: #1e7f43;
+    }
+    .stats {
+      display: flex;
+      justify-content: space-between;
+      flex-wrap: wrap;
+      gap: 1rem;
+    }
+    .stat {
+      background: #eaf5ef;
+      padding: 1rem 1.5rem;
+      border-radius: 8px;
+      min-width: 180px;
+    }
+    .stat strong {
+      font-size: 1.6rem;
+      display: block;
+    }
+    .flow {
+      list-style: none;
+      padding-left: 0;
+    }
+    .flow li {
+      margin-bottom: 0.6rem;
+    }
+    footer {
+      background: #222;
+      color: #bbb;
+      text-align: center;
+      padding: 1.5rem;
+      font-size: 0.9rem;
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>Smart Waste Management System</h1>
+  <p>IoT‑enabled garbage monitoring and optimized collection platform</p>
+</header>
+
+<section>
+  <h2>Project Overview</h2>
+  <p>
+    This system uses <strong>smart garbage bins</strong>, a <strong>central admin dashboard</strong>, 
+    and a <strong>driver mobile application</strong> to improve urban waste collection efficiency. 
+    Real‑time bin data helps municipalities reduce fuel usage, avoid overflow, and plan optimized routes.
+  </p>
+</section>
+
+<section>
+  <h2>MVP Snapshot Components</h2>
+  <div class="grid">
+    <div class="card">
+      <h3>Smart Garbage Bin</h3>
+      <ul class="flow">
+        <li>Ultrasonic sensor to measure fill level</li>
+        <li>Solar panel for sustainable power</li>
+        <li>Unique Bin ID (e.g., SB001)</li>
+        <li>Wireless data transmission (Wi‑Fi / GSM)</li>
+        <li>Overflow and maintenance alerts</li>
+      </ul>
+    </div>
+
+    <div class="card">
+      <h3>Admin Dashboard</h3>
+      <ul class="flow">
+        <li>Live map view of all bins</li>
+        <li>Status indicators: Empty, Partially Full, Full</li>
+        <li>Automatic route generation</li>
+        <li>Truck dispatch management</li>
+        <li>Daily fuel savings analytics</li>
+      </ul>
+    </div>
+
+    <div class="card">
+      <h3>Driver Mobile App</h3>
+      <ul class="flow">
+        <li>Optimized navigation route</li>
+        <li>ETA and distance tracking</li>
+        <li>Turn‑by‑turn directions</li>
+        <li>Next bin pickup alerts</li>
+        <li>Completion confirmation</li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<section>
+  <h2>Live System Statistics (Sample)</h2>
+  <div class="stats">
+    <div class="stat">
+      <strong>50</strong>
+      Total Smart Bins
+    </div>
+    <div class="stat">
+      <strong>6</strong>
+      Bins Needing Pickup
+    </div>
+    <div class="stat">
+      <strong>12.5 L</strong>
+      Fuel Saved Today
+    </div>
+    <div class="stat">
+      <strong>23</strong>
+      Active Collection Route
+    </div>
+  </div>
+</section>
+
+<section>
+  <h2>How the System Works</h2>
+  <ol>
+    <li>Smart bins continuously monitor waste levels.</li>
+    <li>Data is sent to the cloud server in real time.</li>
+    <li>The admin dashboard identifies bins that need collection.</li>
+    <li>An optimized route is generated automatically.</li>
+    <li>Drivers follow the route using the mobile app.</li>
+    <li>Collection data is logged for reports and analytics.</li>
+  </ol>
+</section>
+
+<section>
+  <h2>Future Enhancements</h2>
+  <ul>
+    <li>AI‑based waste generation prediction</li>
+    <li>Dynamic traffic‑aware routing</li>
+    <li>Citizen reporting mobile app</li>
+    <li>Carbon emission reduction metrics</li>
+    <li>Integration with smart city platforms</li>
+  </ul>
+</section>
+
+<footer>
+  <p>Smart Waste Management System © 2026</p>
+  <p>MVP Demonstration Website</p>
+</footer>
+
+</body>
+</html>
